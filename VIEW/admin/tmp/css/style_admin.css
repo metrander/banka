@@ -1,0 +1,122 @@
+﻿*{
+	margin:0 auto;
+	padding:0;
+}
+.clr{clear:both;}
+html, body{font-family:Verdana, Geneva, sans-serif; }
+.container{
+	width:900px;
+	margin:0 auto;
+
+}
+.head{
+	width:100%;
+	height:60px;
+	overflow:hidden;
+	margin:5px 0 5px 0;
+	background:#EAFFD5;
+	line-height:60px;
+	
+}
+.logon{text-align:left;float:left;padding:0 0 0 20px;}
+	.logon a{text-decoration:none}
+	.logon span {font-size:28px; color:#666666; letter-spacing:5px; text-decoration:none}
+	.logon label{color:#990000;}
+.portph{text-align:right;float:right;padding:0 10px 0 0;}
+	.portph span a{font-size:12px; color:#666666;}
+	.portph span a:hover{text-decoration:none}
+
+.main{
+	width:100%;
+	overflow:hidden;
+	margin:5px 0 5px 0
+} 
+.left-bar{width:235px;float:left;padding:5px 10px 5px 20px;border-right:1px solid #EAFFD5}
+	.left-bar span{color:#990000; font-size:14px; font-weight:bold}
+	.left-bar h3 a{color:#000000; text-decoration:none; font-weight:bold; font-size:14px; display:block; margin-bottom:2px;}
+	.left-bar h3 a:hover{text-decoration:underline}
+/*Список главных страниц */
+.nav-catalog{
+    padding:10px 10px 20px 0px;
+    list-style: none;
+    
+}
+.nav-catalog ul{
+    padding:5px 0 0 20px;list-style: none
+}
+.nav-catalog ul li{
+    margin: 0;
+}
+.nav-catalog li{
+    margin: 0 0 5px 0;
+    
+}
+#sublist:last-child{
+    margin-bottom: 20px;
+}
+.nav-catalog h3 li{
+    margin: 0 0 5px 0;
+    list-style-position: outside;
+}  
+.nav-catalog li a{
+    font:bold 13px Verdana;
+    color:#000;
+    text-decoration:none;
+}
+.nav-catalog li a:hover{
+    color:#990000;
+    text-decoration:none;
+}
+	
+.content{margin-left:255px;padding:5px 10px 5px 10px;}
+	.content span{color:#a0a6ad; font-size:14px; font-weight:bold}
+	.content p {margin-top:25px;}
+	.content p a{color:#000000; font-size:11px; font-weight:bold}
+	.content p a:hover{ text-decoration:none}	
+/*Таблица страниц */
+#table-pages{margin:20px auto 0 auto;text-align:center;width:95%;}
+	#table-pages th{padding:10px;font-weight:normal; background:#DFDFDF}
+	#table-pages td{padding:15px; text-align:left; color:#666666; font-size:12px}
+	#table-pages td a{text-decoration:none; color:#000000}
+	#table-pages td a:hover{text-decoration:underline}
+#table-pos{text-align:center !important;}	
+.inform{background: #dff1ff; font-weight: bold; font-size: 18px;}
+.footer{height:30px; line-height:30px; text-align:center; color:#666; background:#DADADA; font-size:12px;-webkit-border-radius: 8px;-moz-border-radius:8px; border-radius: 8px;}
+
+/*Форма редактирования страниц*/
+.edit-form{margin:10px auto 0 auto; font-family:Arial, Helvetica, sans-serif}
+	.edit-form table{width:95%; border:none}
+	.edit-form #h2 input{font-size:16px; color:#006633;}
+	.edit-form td{font-size:12px; font-weight:bold;}
+	
+	.edit-form input[type=text]{width:95%; padding:6px; text-align:left; font-size:15px; color:#333333; font-weight:bold; border:1px #999999 solid; font-family:Arial, Helvetica, sans-serif}
+	.edit-form input[type=submit]{width:100px; text-align:center;padding:6px; font-size:15px; color:#333333; font-weight:bold; border:1px #999999 solid; cursor:pointer}
+#box {padding:10px; text-align:left}
+.full-text{width:100%; height:200px; font-size:14px; font-weight:bold; margin-top:10px; border:1px #999999 solid;}	
+/*Таблица информеров*/
+.title_inform{background: #DADADA;color:#555; height: 50px; line-height: 50px;font-size: 12px; font-weight: bold;margin: 2px; cursor:pointer}
+    .title_inform span{font-size: 11px; font-weight: normal; font-style: italic}
+    .title_inform h3{float: left;margin:0 20px 0 10px;}
+    .title_inform p{float: right; margin: 0 10px 0 0}
+    .title_inform p a{font-size: 13px;text-decoration: none; font-weight: normal; color: #000}
+    .title_inform p a:hover{text-decoration:underline}
+.hide_item{margin: 0 20px 0 10px; font-size: 12px;display:none}
+    .hide_item span{font-size: 11px; font-weight: normal; font-style: italic;}
+    .hide_item h3{margin:0 20px 0 10px;font-weight: normal; font-size: 12px;}  
+    .hide_item p{margin: 0 10px 0 0;}
+    .hide_item p a{font-size: 12px;text-decoration: none; font-weight: normal; color: #000 }
+    .hide_item p a:hover{text-decoration:underline}
+.new-page {color:#000000; font-size:11px; font-weight:bold; text-align: right}    
+    .new-page a{color:#000000; font-size:11px; font-weight:bold}
+    .new-page a:hover{ text-decoration:none} 
+#del{color:#990000} 
+/*Форма добавления нового информера*/
+.new-informer{margin:20px 0 0 5px}
+    .new-informer ul{list-style: none; line-height: 20px;}
+    .new-informer span{color: #990000; font-size: 12px; font-weight:bold;}
+    #field_long,#field_short{width: 70%; padding: 5px;background: #ffffcc;border:1px #DADADA solid}    
+#field_short{width: 20%;} 
+.new-informer li{border:1px #DADADA solid; padding: 3px 0 15px 5px;margin-bottom: 10px;}
+.informer_button{padding: 5px; color: #999999; border: 1px #DADADA outset; cursor: pointer; margin-top: 9px;}
+.informer_button:hover{color: #555}
+.informer_button:active{border: 1px #DADADA inset}

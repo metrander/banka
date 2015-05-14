@@ -1,0 +1,8 @@
+*.zip
+*.log
+*.pdf
+*.xls
+*.jp?g
+*.gif
+*.png
+photo/
