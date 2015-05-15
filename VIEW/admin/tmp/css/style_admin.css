@@ -68,8 +68,10 @@ html, body{font-family:Verdana, Geneva, sans-serif; }
     text-decoration:none;
 }
 	
-.content{margin-left:255px;padding:5px 10px 5px 10px;}
-	.content span{color:#a0a6ad; font-size:14px; font-weight:bold}
+.content{margin-left:255px;padding:5px 10px 5px 15px;}
+	.content a{color:#a0a6ad; font-size:13px; text-decoration: none}
+        .content a:hover{text-decoration:underline}
+        .content span{color:#a0a6ad; font-size:13px; font-weight:bold}
 	.content p {margin-top:25px;}
 	.content p a{color:#000000; font-size:11px; font-weight:bold}
 	.content p a:hover{ text-decoration:none}	
@@ -84,7 +86,7 @@ html, body{font-family:Verdana, Geneva, sans-serif; }
 .footer{height:30px; line-height:30px; text-align:center; color:#666; background:#DADADA; font-size:12px;-webkit-border-radius: 8px;-moz-border-radius:8px; border-radius: 8px;}
 
 /*Форма редактирования страниц*/
-.edit-form{margin:10px auto 0 auto; font-family:Arial, Helvetica, sans-serif}
+.edit-form{margin:25px auto 0 auto; font-family:Arial, Helvetica, sans-serif}
 	.edit-form table{width:95%; border:none}
 	.edit-form #h2 input{font-size:16px; color:#006633;}
 	.edit-form td{font-size:12px; font-weight:bold;}

@@ -1,4 +1,5 @@
-﻿<div class = "content">
+<div class = "content">
+    <a href="/manager">Основные страницы</a>    <span>Изменить страницу</span>
 <div class='edit-form'>
 <?php
 @session_start();
@@ -9,10 +10,10 @@ $array = $this->array_stat[0];
         	<tr>
             	<td colspan="2" style="color:#FF3333">
                 	<?php
-					if(@$_SESSION['Error']){
-						echo $_SESSION['Error'];
-					}
-					?>
+                            if(@$_SESSION['Error']){
+                                    echo $_SESSION['Error'];
+                            }
+                        ?>
                 </td>
             </tr>
             <tr>

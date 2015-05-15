@@ -1,5 +1,5 @@
 <div class = "content">
-     <span>Добавление новой страницы в информер</span>
+    <a href="/informer">Информеры</a>    <span>Добавление новой страницы в информер</span>
 <div class='edit-form'>
 <?php
 @session_start();

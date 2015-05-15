@@ -1,4 +1,5 @@
 <div class = "content">
+     <a href="/manager">Основные страницы</a>    <span>Новая страница</span>
 <div class='edit-form'>
 <?php
 @session_start();
