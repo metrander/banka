@@ -24,7 +24,7 @@ class info extends model{
             $sql = "
             SELECT h.id, h.name as head_name, m.name as menu_name, m.id as id_menu
             FROM informers h,informer_menu m 
-            WHERE m.id_informer = h.id AND h.reclama = '0'";
+            WHERE m.id_informer = h.id";
 				
 		$result = $this->db->select($sql);
 		$array = array();
@@ -42,8 +42,8 @@ class info extends model{
 	function informers_reclama(){
 		$sql = "
 		SELECT h.id, h.name as head_name, t.txt, t.id as id_txt
-		FROM informers h,informer_reclama t
-              WHERE t.id_informer = h.id AND h.reclama = '1'";
+		FROM infreclama h,informer_reclama t
+                WHERE t.id_infrecl = h.id ";
 				
 		$result = $this->db->select($sql);
 		$array = array();
