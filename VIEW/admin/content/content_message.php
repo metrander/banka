@@ -1,7 +1,7 @@
 <div class = "content">
     <span>Сообщение</span>
       	<p>
-           +<a href="informer/add_informer">Новое сообщение</a>
+           +<a href="message/add_message">Новое сообщение</a>
         </p><br>
 <?php
    $informers = $this->array['informer'];
@@ -14,7 +14,7 @@
                   кол.стр.( <?=count(@$informers[$key]['sub']) ;?>)
                 </span>
                 <p>
-                   <a href="informer/upd_informer/<?= $key ;?>">Изменить</a>/<a href="informer/del_informer/<?= $key ;?>" id = "del">Удалить</a>
+                   <a href="message/upd_message/<?= $key ;?>">Изменить</a>/<a href="message/del_message/<?= $key ;?>" id = "del">Удалить</a>
                 </p>
         </div> <!--class="title_inform"-->
                   <div class="hide_item">
@@ -32,14 +32,14 @@
                               </td> 
                               <td>
                                 <p>
-                                  <a href="informer/upd_page/<?= $k ;?>">Изменить</a>/<a href="informer/del_page/<?= $k ;?>" id = "del">Удалить</a>
+                                  <a href="message/upd_page/<?= $k ;?>">Изменить</a>/<a href="message/del_page/<?= $k ;?>" id = "del">Удалить</a>
                                 </p> 
                               </td>  
                           </tr>
                   <?php endforeach; ?>
                            <tr>
                                <td colspan="3" class="new-page">
-                                    <a href="informer/new_page/<?=$key;?>">+Новая страница</a>
+                                    <a href="message/new_page/<?=$key;?>">+Новая страница</a>
                                </td>
                           </tr>
                         </table>      
@@ -49,7 +49,7 @@
                            0 страниц
                     </span>
                     <div class="new-page">
-                        <a href="informer/new_page/<?=$key;?>">+Новая страница</a>
+                        <a href="message/new_page/<?=$key;?>">+Новая страница</a>
                     </div>
                  
                 <?php endif; ?>  
