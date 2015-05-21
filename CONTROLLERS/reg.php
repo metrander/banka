@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 class reg extends controller{
 	function __construct(){
 		parent::__construct();
