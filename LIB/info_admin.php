@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 class info_admin extends model{
 	function __constuct(){
 		parent::__construct();
@@ -19,9 +19,10 @@ class info_admin extends model{
 		$name_category = "";
 		foreach($result as $value):
 			if($name_category!=$value['name_category']){
-				$array['master_page'][$value['id_category']]['category'] = $value['name_category'];
+                            $array['master_page'][$value['id_category']]['category'] = $value['name_category'];
 			}
-			$array['master_page'][$value['id_category']]['sub'][$value['id']]['name'] = $value['name_goods'];
+			if(!empty($value['name_goods']))
+                        $array['master_page'][$value['id_category']]['sub'][$value['id']]['name'] = $value['name_goods'];
 		endforeach;
 		
 		
