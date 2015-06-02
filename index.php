@@ -15,6 +15,8 @@ require_once "LIB/database.php";
 require "LIB/info.php";
 require "LIB/info_admin.php";
 require_once "LIB/hash.php";
+require_once "LIB/simpleimage.php";
+
 
 
 

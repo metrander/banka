@@ -1,4 +1,4 @@
-﻿<div class = "contentwrapper">
+<div class = "contentwrapper">
     <div class = "content">
 <form id = "myform" action="servis/doaction" method="post" enctype="multipart/form-data" name="myform">
     <label>

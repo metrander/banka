@@ -7,7 +7,7 @@ class info_admin extends model{
 	function master_page(){
 		$sql = "
 		
-		SELECT c.name_category, g.name_goods, g.id, c.id as id_category
+		SELECT c.name_category, g.name_goods, g.id, c.id as id_category,c.ind
 		FROM category c
 		LEFT JOIN goods g ON c.id = g.id_category
 		
@@ -20,6 +20,7 @@ class info_admin extends model{
 		foreach($result as $value):
 			if($name_category!=$value['name_category']){
                             $array['master_page'][$value['id_category']]['category'] = $value['name_category'];
+                            $array['master_page'][$value['id_category']]['ind'] = $value['ind'];
 			}
 			if(!empty($value['name_goods']))
                         $array['master_page'][$value['id_category']]['sub'][$value['id']]['name'] = $value['name_goods'];

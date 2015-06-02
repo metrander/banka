@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 class reg_model extends model{
 	function __constuct(){
 		parent::__construct();

@@ -1,4 +1,4 @@
-﻿<div class = "contentwrapper">
+<div class = "contentwrapper">
     <div class = "content">
        <div class="index-tab-conteiner">
 

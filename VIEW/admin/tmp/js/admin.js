@@ -26,6 +26,13 @@ $(document).ready(function() {
 //работа аккордиона   	
 //слайдер информеров
     $(".title_inform").click(function(){
-       $(this).next().slideToggle(500);
+       $(this).next().slideToggle(100);
     })
+    
 });
+function addgrad(n){
+        var m = n+1;
+        $("#id"+n).css("display","none");
+        var content = "<li><input type='text' name='name_gradient"+m+"' class='name_grad'><input type='text' name='weight_low"+m+"' size='5' class='weight_grad'><input type='text' name='weight"+m+"' size='5' class='weight_grad'><input type='text' name='weight_heigh"+m+"' size='5' class='weight_grad'><div id='id"+m+"' onclick='addgrad("+m+")'> +</div></li>";
+        $("ol").append(content);
+    }

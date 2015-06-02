@@ -1,4 +1,4 @@
-﻿<div class = "my-menu">
+<div class = "my-menu">
     <ul class = "mymenu">
     	<li><a href="#"><?= $_SESSION['admin']['name'];?></a></li>
         <li><a href="#"><?= $_SESSION['admin']['email'];?></a></li>

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 class view{
 	public function render($name,$option = false){
 		$inf = new info();

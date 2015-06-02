@@ -1,4 +1,4 @@
-﻿ <div class="head-cart">
+ <div class="head-cart">
          <span>Корзина</span>
  		<p>Ваш заказ на сумму:</p>
 		<?php if(@$_SESSION['total_quantity']): ?>

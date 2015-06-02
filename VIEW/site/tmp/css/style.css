@@ -29,7 +29,7 @@ html, body{font-family:Verdana, Geneva, sans-serif; }
 		.index-tab-conteiner h1{text-align:center; color:#F03; font-size:28px; font-weight:normal; margin-bottom:10px}
 		.index-tab-object-conteiner{float:left;width:48%; text-align:center;position:relative; margin:0 2px 20px 0;border:1px #EAFCC7 solid; padding:5px; background-color:#e7e7e7}
 		.index-tab-object{display:table-cell; height:170px; position:relative; vertical-align:middle; width:1%;}
-			.index-tab-object-conteiner h2{font-size:21px; font-weight:normal; color:#00B300; text-align:center}
+			.index-tab-object-conteiner h2{font-size:21px; font-weight:normal; color:#00B300; text-align:center; margin: 0 0 10px 0}
 				.index-tab-object-conteiner h2 a{font-size:21px; font-weight:normal; color:#00B300;}
 					.index-tab-object-conteiner h2 a:hover{text-decoration:none}
 					.index-tab-object-conteiner h2 a:active{position:relative;top:2px;}
@@ -37,7 +37,7 @@ html, body{font-family:Verdana, Geneva, sans-serif; }
 				.detail h3{font-size:13px; font-weight:bold; color:#00B300; text-align:left; font-style:oblique; }
 				.detail p{ font-size:13px;font-weight:bold; text-align:left}
 				.summa{display:block; padding:5px; background-color:#F60; color:#FFF; text-align:center; cursor:pointer;margin:0 auto;-webkit-border-radius: 4px; -moz-border-radius:4px; border-radius: 4px}
-			.do-zakaz, .my-zakaz{display:block;width:100px; padding:5px; background-color:#F30; color:#FFF; text-align:center; cursor:pointer;margin:0 auto;-webkit-border-radius: 4px; -moz-border-radius:4px; border-radius: 4px}
+			.do-zakaz, .my-zakaz{display:block;width:100px; padding:5px; background-color:#F30; color:#FFF; text-align:center; cursor:pointer;margin:10px auto;-webkit-border-radius: 4px; -moz-border-radius:4px; border-radius: 4px}
 				.do-zakaz:hover{color:#FF0;}	
 				.do-zakaz:active{position:relative; top:1px;}	
 .left-bar{float:right;width: 200px; margin-left: -100%; text-align: left; background-color: #FDFCE8;}

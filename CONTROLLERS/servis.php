@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 class servis extends controller{
 	function __construct(){
 		parent::__construct();

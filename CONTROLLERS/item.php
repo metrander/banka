@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 class item extends controller{
 	function __construct(){
 		parent::__construct();

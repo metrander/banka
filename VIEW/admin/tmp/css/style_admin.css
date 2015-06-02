@@ -88,6 +88,7 @@ html, body{font-family:Verdana, Geneva, sans-serif; }
 /*Форма редактирования страниц*/
 .edit-form{margin:25px auto 0 auto; font-family:Arial, Helvetica, sans-serif}
 	.edit-form table{width:95%; border:none}
+        .edit-form table label{font-size: 12px; font-weight: normal}
 	.edit-form #h2 input{font-size:16px; color:#006633;}
 	.edit-form td{font-size:12px; font-weight:bold;}
 	
@@ -122,3 +123,11 @@ html, body{font-family:Verdana, Geneva, sans-serif; }
 .informer_button{padding: 5px; color: #999999; border: 1px #DADADA outset; cursor: pointer; margin-top: 9px;}
 .informer_button:hover{color: #555}
 .informer_button:active{border: 1px #DADADA inset}
+
+.name_grad{width: 150px !important;margin: 0 3px 5px 0}
+.weight_grad{width: 85px !important;margin: 0 3px 5px 0}
+.price_grad{width: 45px !important;margin: 0 0 5px 0;color: #000000 !important;text-align: right !important }
+.price_real{width: 35px !important;margin: 0 1px 5px 0; color: #006633 !important }
+li div {float: right;cursor:pointer; margin: 2px 10px 0 0;font-size: 25px;color: #ccc}
+li div:hover{color: #000}
+li div:active{position: relative;top:-2px}

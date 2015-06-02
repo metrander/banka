@@ -1,4 +1,4 @@
-﻿<div class = "clr"></div>
+<div class = "clr"></div>
 <div class = "footer">
 			<div class = "logo">
 				<h2><a href="/"> <?=$contact[0]['text_contact'];?> </a></h2>

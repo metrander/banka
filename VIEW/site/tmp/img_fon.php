@@ -1,4 +1,4 @@
-﻿<div class = "head-menu">
+<div class = "head-menu">
     <ul class = "menu">
        <?php foreach($stati as $value):?>
         <li><a href="../../index/stat/<?=$value['id'];?>"><?=$value['name_category']; ?></a></li>

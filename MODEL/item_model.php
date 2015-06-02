@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 class item_model extends model{
 	function __construct(){
 		parent::__construct();

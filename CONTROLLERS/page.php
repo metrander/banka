@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 class page extends controller{
 
 	function __construct(){

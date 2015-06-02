@@ -1,4 +1,4 @@
-﻿<div class = "head">
+<div class = "head">
     <div class = "head-contact"> 
         <span>Наши контакты</span>
         <p>телефон: <span><?=$contact[2]['text_contact'];?></span></p>

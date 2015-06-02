@@ -1,4 +1,4 @@
-﻿ <div class="head-cart">
+ <div class="head-cart">
         <a href="../">Вернуться на сайт</a>
    </div><!--.head-cart-->
 </div><!--.head -->

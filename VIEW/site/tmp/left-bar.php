@@ -1,4 +1,4 @@
-﻿<div class = "left-bar">
+<div class = "left-bar">
    <div class = "informer-bar">
           
             <h2>Авторизация</h2>

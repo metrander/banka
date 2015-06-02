@@ -1,4 +1,4 @@
-﻿<div class = "contentwrapper">
+<div class = "contentwrapper">
     <div class = "content">
        <div class="index-tab-conteiner">
             <h1>Ваш выбор</h1>
@@ -22,8 +22,8 @@ foreach($this->arr as $value){
                             </div>
                    		 </div><!--.detail-->  
                   	 	<div class="do-zakaz"  id="id<?=$value['id_good']; ?>" atr = "2">
-                       	 Заказать
-                    	</div>             
+                                    Заказать
+                                </div>             
                 </div><!--index-tab-object-->
             </div><!--index-tab-object-conteiner--> 
 <?php

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 class bootstrap{
 	
 	function __construct(){

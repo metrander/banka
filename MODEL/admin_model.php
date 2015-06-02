@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 class admin_model extends model{
 	function __constuct(){
 		parent::__construct();

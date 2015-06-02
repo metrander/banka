@@ -1,2 +1,2 @@
-﻿<!--</div><!--.head -->
+<!--</div><!--.head -->
 <div class="clr"></div>

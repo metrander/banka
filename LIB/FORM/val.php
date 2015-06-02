@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 class val{
 
 	function minlength($data,$arg){
