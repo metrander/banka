@@ -27,21 +27,17 @@ class category_model extends model {
     } 
     function add_page(){
         @session_start();
-        echo"<pre>";
-            print_r($_POST);
-        echo"</pre>"  ;
-       
         $error="";
         $name_goods = trim($_POST['name_goods']);
+        $about = htmlspecialchars($_POST['txt']);
         if(empty($name_goods)) $error .="Наименование товара<br>";
         if(empty($error)){
             //запись товара 
-            
             $price_low = (int)$_POST['price_low'].".".(int)$_POST['price_low_real'];
             $price = (int)$_POST['price'].".".(int)$_POST['price_real'];
             $price_high = (int)$_POST['price_heigh'].".".(int)$_POST['price_heigh_real'];  
             $this->db->insert("goods",array("id_category"=>$_POST['id_category'],"name_goods"=>$name_goods,
-                "price_low"=>$price_low,"price"=>$price,"price_high"=>$price_high));
+                "price_low"=>$price_low,"price"=>$price,"price_high"=>$price_high,"about"=>$about));
             $id_goods = $this->db->lastInsertId();
             
             $cnt = (count($_POST)-11)/4;
@@ -97,4 +93,15 @@ class category_model extends model {
                 return TRUE;
         
     }
+    function del_page($arg){
+        $id_page = (int)$arg;
+	$this->db->exec('DELETE FROM goods WHERE id = '.$id_page);
+        $this->db->exec('DELETE FROM gradients WHERE id_goods = '.$id_page);
+        $res = $this->db->select("SELECT name_photo FROM photo WHERE id_goods = :id",array(":id"=>$id_page));
+        foreach($res as $name){
+            $path_img =PATH_ROOT."PHOTO/".$name['name_photo'];
+            @unlink($path_img);
+        }
+        $this->db->exec('DELETE FROM photo WHERE id_goods = '.$id_page);
+    }  
 }

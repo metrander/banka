@@ -53,5 +53,16 @@ class category extends controller {
         $this->redirect($result);
         exit;
     }
+    function del_page($arg){
+        $this->model->del_page($arg);
+        $this->redirect(FALSE);
+        exit;
+    }
+     function upd_page($id_page){
+        $this->view->title = "Изменить товар категории ";
+        $this->view->id_page=$id_page;
+        $this->view->render("form_editcategory_page","manager");
+        exit;
+    }
    
 }

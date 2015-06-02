@@ -3,6 +3,7 @@
 *.pdf
 *.xls
 *.jp?g
+*.jpg
 *.gif
 *.png
-photo/
+PHOTO/
